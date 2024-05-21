@@ -1,18 +1,38 @@
+'use client';
 import React from 'react'
+import Image from 'next/image'
+import  { TypeAnimation } from 'react-type-animation'
+import { Bai_Jamjuree } from 'next/font/google'
+
+
 
 const HeroSection = () => {
   return (
     <section>
-      <div className='grid grid-cols-1 lg:grid-cols-12'>
-        <div className='col-span-7 place-self-center'>
-          <h1 className="text-black mb-4 text-4xl lg:text-6xl font-extrabold">
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300'>
+      <div className='grid grid-cols-1 lsm:grid-cols-12'>
+        <div className='col-span-7 place-self-center text-center sm:text-left'>
+          <h1 className="text-black mb-4 text-4xl sm:text-5xl font-extrabold">
+            <span className="text-black mb-4 text-4xl sm:text-5xl font-extrabold">
               Hello, I'm {" "}
             </span>
-            Allison
+            <TypeAnimation
+              sequence={[
+                "Allison",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Software Engineer',
+                1000,
+                'Web Developer',
+                1000,
+                'Creator',
+                1000
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
-          <p className='text-black text-lg lg:text-xl'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum minus voluptatibus dolores tempora veritatis, ullam officiis. Consectetur, deleniti maiores sunt amet incidunt at, vitae voluptatum ut, temporibus porro mollitia. Officiis?
+          <p className='text-black  text-base sm:text-lg mb-6 lg:text-xl'>
+            Based in Austin, Texas
           </p>
         </div>
         <div className='col-span-5'>
@@ -20,11 +40,11 @@ const HeroSection = () => {
             src = 'image'
           /> */} 
         </div>
-        <div>
-          <button className='px-6 py-3 rounded-full mr-4 bg-transparent hover:bg-slate-200'>
+        <div className='col-span-5'>
+          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-sky-700 hover:text-white'>
             Contact Me
           </button>
-          <button className='px-6 py-3 rounded-full mr-4 bg-transparent hover:bg-slate-200'>
+          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-sky-700 hover:text-white'>
             Download Resume
           </button>
         </div>

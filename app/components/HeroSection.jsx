@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 lsm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className="text-black mb-4 text-4xl sm:text-5xl font-extrabold">
-            <span className="text-black mb-4 text-4xl sm:text-5xl font-extrabold">
+            <span className="text-sky-700 text-4xl sm:text-5xl font-extrabold">
               Hello, I'm {" "}
             </span>
             <TypeAnimation
@@ -40,7 +40,7 @@ const HeroSection = () => {
             src = 'image'
           /> */} 
         </div>
-        <div className='col-span-5'>
+        <div className='col-span-7 place-self-center text-center sm:text-left'>
           <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-sky-700 hover:text-white'>
             Contact Me
           </button>

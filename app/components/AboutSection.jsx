@@ -23,19 +23,24 @@ const AboutSection = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis minima distinctio ratione eaque. Unde molestiae facere maxime ea ab, sapiente eveniet aliquid veniam vitae molestias provident, aut fugit dolor?
           </p>
           <div className='flex flex-row mt-8'>
-            <TabButton selectTab = {()=>handleTabChange("skills")} active={tab === "skills"}>
+            <TabButton
+              selectTab = {()=>handleTabChange("skills")}
+              active={tab === "skills"}>
               {" "}
-              Skills {" "}
+              Skills{" "}
             </TabButton>
-            <TabButton selectTab = {()=>handleTabChange("skills")} active={tab === "education"}>
+            <TabButton
+              selectTab = {()=>handleTabChange("education")}
+              active={tab === "education"}>
               {" "}
-              Education {" "}
+              Education{" "}
             </TabButton>
-            <TabButton selectTab = {()=>handleTabChange("skills")} active={tab === "certifications"}>
+            <TabButton
+              selectTab = {()=>handleTabChange("certifications")}
+              active={tab === "certifications"}>
               {" "}
-              Certifications {" "}
+              Certifications{" "}
             </TabButton>
-         
           </div>
         </div>
       </div>

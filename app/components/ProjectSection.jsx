@@ -8,6 +8,8 @@ const projectsData = [
     description: "A responsive web application providing a list of government representatives based on address.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
+    gitUrl: "https://github.com/arandel1/whos-your-rep",
+    previewUrl: "https://whos-your-rep.vercel.app/",
   },
   {
     id: 2, 
@@ -15,6 +17,8 @@ const projectsData = [
     description: "A responsive data-driven e-commerce web application offering unique antiques and oddities.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
+    gitUrl: "https://github.com/arandel1/tchotchkes",
+    previewUrl: "https://capstone-tchotchke-ghp-2401.vercel.app/",
   },
   {
     id: 3, 
@@ -22,19 +26,24 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 
 const ProjectSection = () => {
   return (
     <>
-      <h2>My Projects</h2>
-      <div>{projectsData.map((project) => (
+      <h2 className='text-4xl font-bold text-black mb-4'>My Projects</h2>
+      <div className='grid md:grid-cols-3 gap-8 md:gap-12'>{projectsData.map((project) => (
         <ProjectCard
           key={project.id}
           title={project.title}
           description={project.description}
-          imgUrl={project.image}/>
+          imgUrl={project.image}
+          tags={project}
+          gitUrl={project.gitUrl}
+          previewUrl={project.previewUrl}/>
         ))}
       </div>
     </>

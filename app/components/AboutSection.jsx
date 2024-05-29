@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills", 
     id: "skills",
     content: (
-      <ul>
+      <ul className='list-disc pl-2'>
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -26,8 +26,8 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
-        <li>Fullstack Academy</li>
+      <ul className='list-disc pl-2'>
+        <li>Fullstack Academy, Grace Hopper Program</li>
         <li>Texas State University</li>
       </ul>
     )
@@ -36,8 +36,9 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul>
-        <li>Web Development Certificate, Fullstack Academy, Grace Hopper Program</li>
+      <ul className='list-disc pl-2'>
+        <li>Learn C++ | Codecademy | In Progress</li>
+        <li>Web Development Certificate | Fullstack Academy, Grace Hopper Program</li>
         <li>Bachelor of Arts, Journalism</li>
       </ul>
     )
@@ -61,7 +62,7 @@ const AboutSection = () => {
         <div>
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis minima distinctio ratione eaque. Unde molestiae facere maxime ea ab, sapiente eveniet aliquid veniam vitae molestias provident, aut fugit dolor?
+          Software engineer and web developer with six years of professional experience in operations and data analysis, creative writing, and graphic design. Excited to create thoughtful and quality products for teams and customers. Strong passion for learning, creative problem-solving, and bringing knowledge to people and communities.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
@@ -83,6 +84,7 @@ const AboutSection = () => {
               Certifications{" "}
             </TabButton>
           </div>
+          <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
       </div>
     </section>

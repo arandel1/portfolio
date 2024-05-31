@@ -57,12 +57,18 @@ const AboutSection = () => {
 
   return (
     <section className='text-black'>
-      <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+      <div className='md:grid gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mb-8'>
         {/* input image here */}
-        <div>
+        <div id = "aboutme">
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-          Software engineer and web developer with six years of professional experience in operations and data analysis, creative writing, and graphic design. Excited to create thoughtful and quality products for teams and customers. Strong passion for learning, creative problem-solving, and bringing knowledge to people and communities.
+          Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, and I'm looking for my next opportunity.
+          <br/>
+          <br/>
+          I'm excited to combine my years in tech and new technical skills to create thoughtful and quality products for teams and customers, and to bridge the gap between products and engineering. I enjoy learning, creative problem-solving, and promoting information and knowledge.
+          <br/>
+          <br/>
+          If you have know of an open position or want to get in touch, let's connect!
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton

@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const EmailSection = () => {
   return (
-    <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'>
-      <div><h5 className='text-4xl font-bold text-black mb-2'>Let's Connect</h5>
+    <section className='grid md:grid-cols-2 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mb-8' id = "contact">
+      <div><h5 className='text-4xl font-bold text-black mb-8'>Let's Connect</h5>
       <p className='text-sky-800 mb-4 max-w-md'>
         {" "}
         I'm looking forward to putting my years of experience in tech and new technical skills to work. If you know of any open positions, want to connect, or talk soccer, send me a message. Thanks!
@@ -22,7 +22,7 @@ const EmailSection = () => {
           </div>
       </div>
       <div>
-        <form className='flex flex-col'>
+        <form className='flex flex-col mb'>
           <label htmlFor="email" type="email"  className='text-black block mb-1 text-sm font-medium my-2'>Your email</label>
           <input 
             type = "email"

@@ -16,7 +16,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Allison",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000, // wait 1s 
                 'Software Engineer',
                 1000,
                 'Web Developer',
@@ -34,7 +34,7 @@ const HeroSection = () => {
           <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-sky-700 hover:text-white'>
             Contact Me
           </button>
-          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-sky-700 hover:text-white'>
+          <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent border border-sky-800 hover:bg-sky-700 hover:text-white'>
             Download Resume
           </button>
         </div>

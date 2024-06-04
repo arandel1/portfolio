@@ -69,7 +69,7 @@ const AboutSection = () => {
           I'm excited to combine my years in tech and new technical skills to create thoughtful and quality products for teams and customers, and to bridge the gap between products and engineering. I enjoy learning, creative problem-solving, and promoting information and knowledge.
           <br/>
           <br/>
-          If you have know of an open position or want to get in touch, let's connect!
+          If you know of an open position or want to get in touch, let's connect!
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton

@@ -12,7 +12,8 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>React + Vite</li>
+        <li>React</li>
+        <li>Vite</li>
         <li>PostgreSQL</li>
         <li>Node.js</li>
         <li>Express</li>
@@ -27,8 +28,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className='list-disc pl-2'>
-        <li>Fullstack Academy, Grace Hopper Program</li>
-        <li>Texas State University</li>
+        <li>Fullstack Academy, Grace Hopper Program | 2024</li>
+        <li>Texas State University | 2017</li>
       </ul>
     )
   },

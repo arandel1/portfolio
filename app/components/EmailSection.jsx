@@ -22,7 +22,7 @@ const EmailSection = () => {
           </div>
       </div>
       <div>
-        <form className='flex flex-col mb'>
+        {/* <form className='flex flex-col mb'>
           <label htmlFor="email" type="email"  className='text-black block mb-1 text-sm font-medium my-2'>Your email</label>
           <input 
             type = "email"
@@ -55,7 +55,7 @@ const EmailSection = () => {
                 type="submit"
                 className='bg-sky-700 hover:bg-sky-300 text-white hover:text-sky-800 font-medium py-2.5 px-5 rounded-lg'>Send message</button>
             </div>
-        </form>
+        </form> */}
       </div>
 
     </section>

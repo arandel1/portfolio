@@ -58,7 +58,7 @@ const AboutSection = () => {
 
   return (
     <section className='text-black'>
-      <div className='md:grid gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mb-8'>
+      <div className='md:grid gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         {/* input image here */}
         <div id = "aboutme">
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>

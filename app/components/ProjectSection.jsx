@@ -23,8 +23,8 @@ const projectsData = [
     title: "Web Portfolio",
     description: "You're lookin' at it!",
     image: "/images/projects/3.png",
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/arandel1/portfolio",
+    previewUrl: "https://www.allisonrandel.com/",
   },
 ];
 

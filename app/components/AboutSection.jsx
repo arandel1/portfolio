@@ -17,7 +17,7 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>GitHub</li>
-        <li>Confluence + Jira</li>
+        <li>Jira + Confluence</li>
         <li>Next.js + Vercel</li>
       </ul>
     )

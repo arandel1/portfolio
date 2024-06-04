@@ -8,9 +8,9 @@ const EmailSection = () => {
   return (
     <section className='grid md:grid-cols-2 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 mb-8' id = "contact">
       <div><h5 className='text-4xl font-bold text-black mb-8'>Let's Connect</h5>
-      <p className='text-sky-800 mb-4 max-w-md'>
+      <p className='text-black mb-4 max-w-md'>
         {" "}
-        I'm looking forward to putting my years of experience in tech and new technical skills to work. If you know of any open positions, want to connect, or talk soccer, send me a message. Thanks!
+        I'm looking forward to combining my years of experience in tech and new technical skills to create products that deliver solutions. If you know of any open positions, want to connect, or talk soccer, send me a message. Thanks!
         </p>
         <div className='socials flex flex-row gap-2'>
           <Link href = "https://github.com/arandel1">

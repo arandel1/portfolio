@@ -35,7 +35,7 @@ const Navbar = () => {
           href={'/'}
           className="text-lg md:text-5xl text-black font-semibold"
         >
-          LOGO
+          AR
         </Link>
         <div className=" mobile-menu block md:hidden">
           { 

@@ -5,7 +5,7 @@ import { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import Scroll from 'react-scroll/modules';
+// import Scroll from 'react-scroll/modules';
 
 const navLinks = [
   {

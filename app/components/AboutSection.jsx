@@ -58,7 +58,7 @@ const AboutSection = () => {
 
   return (
     <section className='text-black'>
-      <div className='md:grid gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+      <div className='md:grid gap-8 items-left py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         {/* input image here */}
         <div id = "aboutme">
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>
@@ -66,11 +66,7 @@ const AboutSection = () => {
           Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, and I'm looking for my next opportunity.
           <br/>
           <br/>
-          I'm excited to combine my years in tech and new technical skills to create thoughtful and quality products for teams and customers, and to bridge the gap between products and engineering. I enjoy learning, creative problem-solving, and promoting information and knowledge.
-          <br/>
-          <br/>
-          If you know of an open position or want to get in touch, let's connect!
-          </p>
+          I'm excited to combine my years in tech and new technical skills to create thoughtful and quality products for teams and customers, and to bridge the gap between products and engineering. I enjoy learning, creative problem-solving, and promoting access to information.</p>
           <div className='flex flex-row mt-8'>
             <TabButton
               selectTab = {()=>handleTabChange("skills")}

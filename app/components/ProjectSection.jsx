@@ -14,7 +14,7 @@ const projectsData = [
   {
     id: 2, 
     title: "Tchotchkes",
-    description: "A responsive data-driven e-commerce web application offering unique antiques and oddities, simulating a real-world scenario for online shoppers and antique store owners. I gained valuable scrum master experience and navigated working in an Agile Environment for the first time. I focused primarily on frontend development while contributing to database construction, API creation and documentation, as well as CSS.",
+    description: "A responsive data-driven e-commerce web application offering unique antiques and oddities, simulating a real-world scenario for online shoppers and antique store owners. I gained valuable scrum master experience and navigated working in an Agile environment.",
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/arandel1/tchotchkes",
     previewUrl: "https://capstone-tchotchke-ghp-2401.vercel.app/",
@@ -23,11 +23,11 @@ const projectsData = [
   {
     id: 3, 
     title: "Web Portfolio",
-    description: "I was excited to build my own online portfolio, and it was the perfect opportunity to explore new programs (Next.js, Tailwind CSS, and Resend) and logic by reshaping how I organize my components.",
+    description: "An opportunity to build my own online portfolio and explore new frameworks and logic.",
     image: "/images/projects/3.png",
     gitUrl: "https://github.com/arandel1/portfolio",
     previewUrl: "https://www.allisonrandel.com/",
-    techstack: "JavaScript, Next.js, Node.js, Resend, Tailwind CSS, Postman, and Vercel.",
+    techstack: "JavaScript, Next.js, Node.js, Tailwind CSS, Postman, and Vercel.",
   },
 ];
 

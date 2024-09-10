@@ -14,6 +14,7 @@ const TAB_DATA = [
         <li>CSS</li>
         <li>React</li>
         <li>Vite</li>
+        <li>Firebase</li>
         <li>PostgreSQL</li>
         <li>Node.js</li>
         <li>Express</li>
@@ -66,7 +67,7 @@ const AboutSection = () => {
           Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, and I'm looking for my next opportunity.
           <br/>
           <br/>
-          I'm excited to combine my years in tech and new technical skills to create thoughtful and quality products for teams and customers, and to bridge the gap between products and engineering. I enjoy learning, creative problem-solving, and promoting access to information.</p>
+          I'm excited to combine my years in operations and technical skills! I'm passionate about learning, creative problem-solving, and access to information.</p>
           <div className='flex flex-row mt-8'>
             <TabButton
               selectTab = {()=>handleTabChange("skills")}

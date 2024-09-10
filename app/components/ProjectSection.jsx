@@ -5,7 +5,7 @@ const projectsData = [
   {
     id: 1, 
     title: "Who's Your Rep?",
-    description: "Who's Your Rep? is a responsive web application providing a list of government representatives based on address that gives a simple answer to the question: 'Who is representing me in government?'. This project served as a way for me to flex my API call skills and to explore my interest for open-source citizen projects.",
+    description: "A responsive web application providing a list of government representatives based on address that gives a simple answer to the question: 'Who is representing me in government?'. This project served as a way to explore my interest for open-source citizen projects.",
     image: "/images/projects/1.png",
     gitUrl: "https://github.com/arandel1/whos-your-rep",
     previewUrl: "https://whos-your-rep.vercel.app/",

@@ -10,7 +10,7 @@ const EmailSection = () => {
       <div><h5 className='text-4xl font-bold text-black mb-8'>Let's Connect</h5>
       <p className='text-black mb-4 max-w-md'>
         {" "}
-        I'm looking forward to combining my years of experience in tech and new technical skills to create products that deliver solutions. If you know of any open positions, want to connect, or talk soccer, send me a message. Thanks!
+        I'm looking forward to my next opportunity! If you know of any open positions, want to connect, or talk soccer, send me a message. Thanks!
         </p>
         <div className='socials flex flex-row gap-2'>
           <Link href = "https://github.com/arandel1">

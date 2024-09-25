@@ -39,9 +39,17 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className='list-disc pl-2'>
-        <li>Learn C++ | Codecademy | In Progress</li>
         <li>Web Development Certificate | Fullstack Academy, Grace Hopper Program</li>
         <li>Bachelor of Arts, Journalism</li>
+      </ul>
+    )
+  },
+  {
+    title: "Technical Experience",
+    id: "technical-experience",
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>The Collab Lab | In Progress</li>
       </ul>
     )
   }
@@ -86,6 +94,12 @@ const AboutSection = () => {
               active={tab === "certifications"}>
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab = {()=>handleTabChange("technical-experience")}
+              active={tab === "technical-experience"}>
+              {" "}
+              Technical Experience{" "}
             </TabButton>
           </div>
           <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>

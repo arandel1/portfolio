@@ -49,7 +49,7 @@ const TAB_DATA = [
     id: "technical-experience",
     content: (
       <ul className='list-disc pl-2'>
-        <li>The Collab Lab | In Progress</li>
+        <li><a href ="https://the-collab-lab.codes/participate/">The Collab Lab</a> | In Progress</li>
       </ul>
     )
   }

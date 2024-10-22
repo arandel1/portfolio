@@ -18,7 +18,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     gitUrl: "https://github.com/arandel1/tchotchkes",
     previewUrl: "https://capstone-tchotchke-ghp-2401.vercel.app/",
-    techstack: "JavaScript, Prisma, Node.js + Express, Postman, React, Vite, Bootstrap, and Vercel.",
+    techstack: "JavaScript, Prisma, NodeJS + Express, Postman, React, Vite, Bootstrap, and Vercel.",
   },
   {
     id: 3, 
@@ -27,7 +27,16 @@ const projectsData = [
     image: "/images/projects/3.png",
     gitUrl: "https://github.com/arandel1/portfolio",
     previewUrl: "https://www.allisonrandel.com/",
-    techstack: "JavaScript, Next.js, Node.js, Tailwind CSS, Postman, and Vercel.",
+    techstack: "JavaScript, Next.js, NodeJS, Tailwind CSS, Postman, and Vercel.",
+  },
+  {
+    id: 4, 
+    title: "SnapShop",
+    description: "A smart shopping list app that learns user buying habits and helps remember what users will likely need to buy on their next trip to the store. Collaborated with Emma Ma, Sarah Mekonnen, and Marcos Perez.",
+    image: "/images/projects/4.png",
+    gitUrl: "https://github.com/the-collab-lab/tcl-76-smart-shopping-list",
+    previewUrl: " ",
+    techstack: "JavaScript, React, NodeJS, Tailwind CSS, Daisy UI, and Material UI.",
   },
 ];
 

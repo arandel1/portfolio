@@ -10,7 +10,7 @@ const TAB_DATA = [
     content: (
       <ul className='list-disc pl-2'>
         <li><b>Programming Languages:</b> JavaScript, HTML, CSS, SQL</li>
-        <li><b>Front End:</b> React, Vite, Next.js, Tailwind CSS, Daisy UI, Material UI </li>
+        <li><b>Front End:</b> React, Vite, Next.js, TailwindCSS, DaisyUI, MaterialUI </li>
         <li><b>Back End:</b> PostgreSQL, Node.js, JSON Web Tokens, Express, Firebase, RESTful API</li>
         <li><b>Project Management:</b> Atlassian, Jira, GitHub, Miro, Figma, Excel, Microsoft Office, Google Workplace, Tableau</li>
       </ul>

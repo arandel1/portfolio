@@ -35,7 +35,7 @@ const projectsData = [
     description: "A smart shopping list app that learns user buying habits and helps remember what users will likely need to buy on their next trip to the store. Collaborated with Emma Ma, Sarah Mekonnen, and Marcos Perez.",
     image: "/images/projects/4.png",
     gitUrl: "https://github.com/the-collab-lab/tcl-76-smart-shopping-list",
-    previewUrl: " ",
+    previewUrl: "https://github.com/the-collab-lab/tcl-76-smart-shopping-list",
     techstack: "JavaScript, React, NodeJS, Tailwind CSS, Daisy UI, and Material UI.",
   },
 ];

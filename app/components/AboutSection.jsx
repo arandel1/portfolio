@@ -9,18 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className='list-disc pl-2'>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>Vite</li>
-        <li>Firebase</li>
-        <li>PostgreSQL</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>GitHub</li>
-        <li>Jira + Confluence</li>
-        <li>Next.js + Vercel</li>
+        <li><b>Programming Languages:</b> JavaScript, HTML, CSS, SQL</li>
+        <li><b>Front End:</b> React, Vite, Next.js, Tailwind CSS, Daisy UI, Material UI </li>
+        <li><b>Back End:</b> PostgreSQL, Node.js, JSON Web Tokens, Express, Firebase, RESTful API</li>
+        <li><b>Project Management:</b> Atlassian, Jira, GitHub, Miro, Figma, Excel, Microsoft Office, Google Workplace, Tableau</li>
       </ul>
     )
   }, 
@@ -40,7 +32,7 @@ const TAB_DATA = [
     content: (
       <ul className='list-disc pl-2'>
         <li>Web Development Certificate | Fullstack Academy, Grace Hopper Program</li>
-        <li>Bachelor of Arts, Journalism</li>
+        <li>Bachelor of Arts, Mass Communications-Journalism | Sociology Minor</li>
       </ul>
     )
   },
@@ -49,7 +41,7 @@ const TAB_DATA = [
     id: "technical-experience",
     content: (
       <ul className='list-disc pl-2'>
-        <li><a href ="https://the-collab-lab.codes/participate/">The Collab Lab</a> | In Progress</li>
+        <li><a href ="https://the-collab-lab.codes/participate/">The Collab Lab</a> | October 2024</li>
       </ul>
     )
   }
@@ -72,10 +64,10 @@ const AboutSection = () => {
         <div id = "aboutme">
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-          Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, and I'm looking for my next opportunity.
+          Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, eager to bridge the gap between engineering, product, sales, and customers.
           <br/>
           <br/>
-          I'm excited to combine my years in operations and technical skills! I'm passionate about learning, creative problem-solving, and access to information.</p>
+          I'm passionate about learning, creative problem-solving, and access to information. In my free time, I'm usually running around Town Lake, watching or playing soccer, attending chess club at a local bookstore, and making homemade ice cream (fluffernutter has been the best so far).</p>
           <div className='flex flex-row mt-8'>
             <TabButton
               selectTab = {()=>handleTabChange("skills")}

@@ -64,10 +64,7 @@ const AboutSection = () => {
         <div id = "aboutme">
           <h2 className='text-4xl font-bold text-black mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-          Hello! I'm a journalist turned community manager, turned operations analyst, turned software engineer and web developer, eager to bridge the gap between engineering, product, sales, and customers.
-          <br/>
-          <br/>
-          I'm passionate about learning, creative problem-solving, and access to information. In my free time, I'm usually running around Town Lake, watching or playing soccer, attending chess club at a local bookstore, and making homemade ice cream (fluffernutter has been the best so far).</p>
+          Hello! I'm a <b>journalist</b> turned <b>community manager</b>, turned <b>operations analyst</b>, turned <b>software engineer and web developer</b>, eager to bridge the gap between engineering, product, sales, and customers. I'm passionate about <b>learning</b>, <b>creative problem-solving</b>, and <b>access to information</b>. In my free time, I'm usually running around Town Lake, watching or playing soccer, attending chess club at a local bookstore, and making homemade ice cream (fluffernutter has been the best so far).</p>
           <div className='flex flex-row mt-8'>
             <TabButton
               selectTab = {()=>handleTabChange("skills")}
@@ -86,12 +83,6 @@ const AboutSection = () => {
               active={tab === "certifications"}>
               {" "}
               Certifications{" "}
-            </TabButton>
-            <TabButton
-              selectTab = {()=>handleTabChange("technical-experience")}
-              active={tab === "technical-experience"}>
-              {" "}
-              Technical Experience{" "}
             </TabButton>
           </div>
           <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
